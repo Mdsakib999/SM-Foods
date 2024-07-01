@@ -14,15 +14,15 @@ const Contact = () => {
         </p>
       </div>
 
-      <div className=" lg:w-[90%] mx-auto flex justify-between items-center lg:mb-20">
-      <div className="w-[40%]">
+      <div className=" lg:w-[90%] mx-auto md:flex justify-between items-center lg:mb-20">
+      <div className="md:w-[40%] mb-10 md:mb-0 ">
           <img
             src="https://i.ibb.co/k9ybqq6/flat-man-illustration-customer-support-23-2148889244.jpg"
             alt=""
           />
       </div>
 
-      <div className="md:w-1/2  px-3 md:px-0">
+      <div className="md:w-1/2  px-5 md:px-0 ">
           <div className="text-2xl font-bold mb-6 text-center md:text-left ">-- Get In Touch --</div>
           <form action="#" className="w-full ">
             <div className="flex flex-wrap -mx-2 mb-6">
@@ -78,14 +78,14 @@ const Contact = () => {
 
 
       {/* Address part */}
-      <div className=" lg:w-[90%] md:w-[95%] mx-auto flex flex-col md:flex-row justify-between my-16 items-center">
+      <div className=" lg:w-[90%] md:w-[95%]  mx-auto flex flex-col md:flex-row justify-between my-16 items-center">
         
       <div className=" lg:ml-20">
-          <p className="lg:text-4xl font-semibold mb-7"> Our Office Address</p>
-          <p className="lg:text-xl "><FaLocationDot className="lg:text-4xl text-orange-400 inline-block" /> Nasirabad Properties Road 1, House-2 </p>
-          <p className="lg:text-xl lg:ml-10 mb-6">Chittagong, Bangladesh.</p>
-          <p className="lg:text-xl"><MdEmail className="lg:text-4xl text-orange-400 inline-block" /> smfoods@gmail.com</p>
-          <p className="lg:text-xl mt-6"><BiSolidPhoneCall className="lg:text-4xl text-orange-400 inline-block" /> +88 01727103079</p>
+          <p className="lg:text-4xl text-2xl font-semibold md:mb-5 mb-4"> Our Office Address</p>
+          <p className="text-xl "><FaLocationDot className="lg:text-4xl text-2xl text-orange-400 inline-block" /> Nasirabad Properties Road 1, House-2 </p>
+          <p className="text-xl lg:ml-10 ml-7 mb-6">Chittagong, Bangladesh.</p>
+          <p className="text-xl"><MdEmail className="lg:text-4xl text-2xl text-orange-400 inline-block" /> smfoods@gmail.com</p>
+          <p className="text-xl mt-6"><BiSolidPhoneCall className="lg:text-4xl text-2xl text-orange-400 inline-block" /> +88 01727103079</p>
         </div>
 
         <div className="lg:w-[50%] md:w-[60%] w-[92%] lg:h-[280px] md:h-[230px]  mt-5 md:mt-0">

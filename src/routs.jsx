@@ -8,6 +8,7 @@ import ProductDetails from './components/ProductDetails';
 import Ghee from './components/Ghee';
 import Honey from './components/Honey';
 import SorishaOil from './components/SorishaOil';
+import Checkout from './components/Checkout';
 
 
 export const router = createBrowserRouter([
@@ -53,6 +54,11 @@ export const router = createBrowserRouter([
             {
                 path: "/sorishaOil",
                 element: <SorishaOil></SorishaOil>,
+            },
+
+            {
+                path: "/checkout",
+                element: <Checkout></Checkout>,
             },
 
             {
