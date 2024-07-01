@@ -87,8 +87,8 @@ const Checkout = () => {
                                         <img src={item.Image} alt={item.name} className="w-full" />
                                         </div>
                                     </td>
-                                    <td className="py-2 px-1  border-b">{item.name}</td>
-                                    <td className="py-2 border-b">{item.category}</td>
+                                    <td className="py-2 border-b">{item.name}</td>
+                                    <td className="py-2 px-1 border-b">{item.category}</td>
                                     <td className="py-2 border-b">${item.price}</td>
                                     <td className="py-2 border-b">{item.quantity}</td>
                                     <td className="py-2 border-b">${item.price * item.quantity}</td>
@@ -104,7 +104,7 @@ const Checkout = () => {
                     </div>
                 </div>
             ) : (
-                <p className="text-center text-gray-700">No items in the cart.</p>
+                <p className="text-center text-red-600">No items on cared. <br /> Please add product to card for checkout.</p>
             )}
 
             <dialog id="my_modal_1" className="modal" ref={modalRef}>
